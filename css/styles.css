@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: ubuntu;
     color: #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 100%;
 }
 
 /* typography */
@@ -217,9 +221,13 @@ p {
 }
 
 footer {
+    bottom: 0px;
+    position: relative;
+    margin-top: auto;
     background-color: #143774;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .footer-text {
